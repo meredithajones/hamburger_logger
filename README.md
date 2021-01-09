@@ -1,10 +1,11 @@
 # Hamburger Logging Application
-============================================================
+========================================================
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub repo size](https://img.shields.io/github/repo-size/meredithajones/note_taking_app?logo=github)
-![GitHub top language](https://img.shields.io/github/languages/top/meredithajones/note_taking_app?color=green&logo=github&logoColor=green)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/meredithajones/note_taking_app?style=flat-square)
-![GitHub language count](https://img.shields.io/github/languages/count/meredithajones/note_taking_app)
+![GitHub repo size](https://img.shields.io/github/repo-size/meredithajones/hamburger_logger?logo=github)
+![GitHub top language](https://img.shields.io/github/languages/top/meredithajones/hamburger_logger?color=green&logo=github&logoColor=green)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/meredithajones/hamburger_logger?style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/meredithajones/hamburger_logger)
 
 ![html badge](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![css badge](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
@@ -39,7 +40,20 @@
 
 
 ## Usage 
-In order to run the application, open the server.js file in integrated terminal, run "npm install" to install dependencies, and then run "node server.js".
+
+In order to run the application:
+
+* Open the server.js file in integrated terminal
+
+* Install the Express npm package: npm install express.
+
+* Create a server.js file.
+
+* Install the Handlebars npm package: npm install express-handlebars.
+
+* Install MySQL npm package: npm install mysql.
+
+* Run the command node index.js in the integrated terminal. 
 
 ### Screen Shots
 ![“”]()
