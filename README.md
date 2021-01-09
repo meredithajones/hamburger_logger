@@ -41,19 +41,17 @@
 
 ## Usage 
 
-In order to run the application:
+### In order to run the application:
 
 * Open the server.js file in integrated terminal
 
 * Install the Express npm package: npm install express.
 
-* Create a server.js file.
-
 * Install the Handlebars npm package: npm install express-handlebars.
 
 * Install MySQL npm package: npm install mysql.
 
-* Run the command node index.js in the integrated terminal. 
+* Run the command: node index.js in the integrated terminal. 
 
 ### Screen Shots
 ![“”]()
@@ -78,7 +76,7 @@ In order to run the application:
 * Nodejs
 
 * 
-* 
+
 	
 
 </details>
