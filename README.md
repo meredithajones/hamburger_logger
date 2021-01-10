@@ -93,10 +93,8 @@
 * [Stack Overflow general research](https://stackoverflow.com/) 
 * [Mdn web docs general research](https://developer.mozilla.org/en-US/)
 * [AskBCS bug fixes]
-* [Mdn web docs general research](https://developer.mozilla.org/
 * [Npm Express Handlebars Docs](https://www.npmjs.com/package/express-handlebars)
-* [Traversy Media NodeJS, Express and Handlebars Youtube tutorial]
-(https://www.youtube.com/watch?v=SfQFoMOd_ng)
+* [Traversy Media NodeJS Express and Handlebars Youtube tutorial](https://www.youtube.com/watch?v=SfQFoMOd_ng)
 
 
 ## Author
