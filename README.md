@@ -51,6 +51,8 @@
 
 * Install MySQL npm package: npm install mysql.
 
+* Install Nodemon: `npm install nodemon`
+
 * Run the command: node index.js in the integrated terminal. 
 
 ### Screen Shots
@@ -75,7 +77,7 @@
 
 * Nodejs
 
-* 
+* Express
 
 	
 
@@ -92,6 +94,10 @@
 * [Mdn web docs general research](https://developer.mozilla.org/en-US/)
 * [AskBCS bug fixes]
 * [Mdn web docs general research](https://developer.mozilla.org/
+* [Npm Express Handlebars Docs](https://www.npmjs.com/package/express-handlebars)
+* [Traversy Media NodeJS, Express and Handlebars Youtube tutorial]
+(https://www.youtube.com/watch?v=SfQFoMOd_ng)
+
 
 ## Author
  Meredith Jones
