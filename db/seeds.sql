@@ -4,7 +4,11 @@
 
 INSERT INTO burgers (name) VALUES ('');
 INSERT INTO burgers (name) VALUES ('');
-INSERT INTO burgers (name, ) VALUES ('', true);
-INSERT INTO burgers (name, ) VALUES ('', true);
-INSERT INTO burgers (name, ) VALUES ('', true);
 INSERT INTO burgers (name) VALUES ('');
+INSERT INTO burgers (name) VALUES ('');
+INSERT INTO burgers (name) VALUES ('');
+INSERT INTO burgers (name) VALUES ('');
+-- INSERT INTO burgers (name, ) VALUES ('', true);
+-- INSERT INTO burgers (name, ) VALUES ('', true);
+-- INSERT INTO burgers (name, ) VALUES ('', true);
+-- INSERT INTO burgers (name) VALUES ('');
