@@ -45,15 +45,15 @@
 
 * Open the server.js file in integrated terminal
 
-* Install the Express npm package: npm install express.
+* Install the Express npm package: `npm install express`
 
-* Install the Handlebars npm package: npm install express-handlebars.
+* Install the Handlebars npm package: `npm install express-handlebars`
 
-* Install MySQL npm package: npm install mysql.
+* Install MySQL npm package: `npm install mysql`
 
 * Install Nodemon: `npm install nodemon`
 
-* Run the command: node index.js in the integrated terminal. 
+* Run the command: `node index.js` in the integrated terminal. 
 
 ### Screen Shots
 ![“”]()

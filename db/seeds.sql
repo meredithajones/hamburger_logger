@@ -2,3 +2,9 @@
 -- with at least three entries.
 
 
+INSERT INTO burgers (name) VALUES ('');
+INSERT INTO burgers (name) VALUES ('');
+INSERT INTO burgers (name, ) VALUES ('', true);
+INSERT INTO burgers (name, ) VALUES ('', true);
+INSERT INTO burgers (name, ) VALUES ('', true);
+INSERT INTO burgers (name) VALUES ('');
