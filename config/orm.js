@@ -1,4 +1,5 @@
 //Import (require) connection.js into orm.js
+var connection = require("../config/connection.js");
 
 //In the orm.js file, create the methods that will execute the
 //necessary MySQL commands in the controllers. 
@@ -9,3 +10,4 @@
 //updateOne()
 
 //Export the ORM object in module.exports.
+module.exports=orm
