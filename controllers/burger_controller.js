@@ -1,8 +1,15 @@
 //import the following:
-//Express
-//burger.js
+//Express, burger.js
 
-//Create the router for the app, and export the router at the end of the file.
+var burger = require ("../modals/burger.js")
+var express= require ("express")
+
+//Create the router for the app 
+router.get(){
+    
+}
 
 
 
+//export the router at the end of the file.
+module.exports = router;
