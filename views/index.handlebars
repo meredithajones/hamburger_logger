@@ -1,5 +1,43 @@
 {{!-- //Setup the index.handlebars to have the template that Handlebars can render onto.
 Create a button in index.handlebars that will submit the user input into the database. --}}
+<main class="container">         
+  
+              <h1><p>Time To Eat Some Burgers!</p></h1>
+          
+       {{!-- Field to add a burger--}}
+                <form class="new_burger">
+                    <input class="form-control" type="text" id="new_burger_text" placeholder="Enter a burger" name="add"></input>
+                    <button type="submit">That's the burger I want!</button>
+                </form>
+
+    <h1>Burgers on the menu</h1>
+
+      <!-- Use for each to create the burgers -->
+
+      <ul>
+      {{#each burger}}
+      {{#unless this.devoured}}
+      <h3>{{burger_name}}</h3>
+      <button class="devoured" id={{id}}>Devour it!</button>
+      {{/unless}}
+      {{/each}}
+    </ul>
+
+    <h2>Burgers Devoured</h2>
+
+    <ul>
+      {{#each burgers}}
+      {{#if devoured}}
+      <h3>{{burger_name}}</h3>
+    <button class="delete" id={{id}}>Gone!</button>
+      {{/if}}
+      {{/each}}
+      </ul>
+
+  <button type="submit">Eat The Burger!</button>
+
+
+</main>
 
 
 

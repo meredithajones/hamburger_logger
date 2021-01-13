@@ -1,4 +1,5 @@
 //import/require orm.js into burger.js
+const { response } = require("express");
 var orm = require("../config/orm.js")
 
 //create the code that will call the ORM functions using burger 
@@ -23,7 +24,17 @@ const burger = {
         cb(response)
     })
 },
-}
+
+    //Devouring the burger– delete
+        delete: (condition, cb) => {
+        orm.delete(condition, (response) => {
+      cb(response)
+    });
+  },
+};
+
+
+
 //Export at the end of the burger.js file.
 module.exports=burger
 

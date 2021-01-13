@@ -6,18 +6,24 @@ var express= require ("express");
 var router = express.Router();
 
 router.get('/', (req, res) => {
+  console.log("GET HIT")
     //Why will it not let me use the fat arrow here?
-    burger.all(function(data) {
+    burger.all(
+      function(data) {
         var hbsObject = {
         burger : data
         };
         console.log(hbsObject);
         res.render("index", hbsObject);
         });
+
     });
     router.post("/api/burgers", (req, res) => {
-        burger.create(["burger_name"], 
-        [req.body.burger_name], (result) => {
+
+
+      console.log("REQ", req.body)
+        burger.create( 
+        req.body.burger_name, (result) => {
           // Send back the ID of the new quote
           res.json({ id: result.insertId });
         });
@@ -32,7 +38,6 @@ router.get('/', (req, res) => {
           devoured: req.body.burger_name
         }, condition, (result) => {
           if (result.changedRows == 0) {
-            // If no rows were changed, then the ID must not exist, so 404
             return res.status(404).end();
           } else {
             res.status(200).end();
