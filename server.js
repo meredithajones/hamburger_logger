@@ -1,5 +1,9 @@
+//Setting Dependencies
 //Require Express
 var express = require("express")
+// Require Handlebars.
+var exphbs = require("express-handlebars");
+
 var app = express()
 
 // Set the port of our application
@@ -12,9 +16,6 @@ app.use(express.static("public"));
 // Parse application body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
-// Require Handlebars.
-var exphbs = require("express-handlebars");
 
 //Set the view engine to handlebars
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
