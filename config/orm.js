@@ -71,6 +71,7 @@ var orm = {
   },
 
   update: function(table, objColVals, condition, cb) {
+    var queryString = "UPDATE burgers SET devoured = NOT devoured WHERE id = ?";
     var queryString = "UPDATE " + table;
 
     queryString += " SET ";
@@ -103,7 +104,7 @@ var orm = {
 };
 
 // Export the orm object for the model (burger.js).
-// module.exports = orm;
+module.exports = orm;
 
 
 // // =========================================================

@@ -28,7 +28,7 @@ $(".new_burger").on("submit", function (event) {
         var newBurgerDevoured = { devoured: beenDevoured };
         
         //Use AJAX put method to update to devoured
-        $.ajax("api/burgers" + id, {
+        $.ajax("api/burgers/" + id, {
             method: "PUT",
             data: newBurgerDevoured
         }).then(function () {

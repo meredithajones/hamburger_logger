@@ -1,6 +1,6 @@
 //import the following:Express, burger.js
 
-var burger = require ("../modals/burger.js")
+var burger = require ("../models/burger.js")
 var express= require ("express");
 //Create the router for the app 
 var router = express.Router();
@@ -35,7 +35,7 @@ router.get('/', (req, res) => {
         console.log("condition", condition);
       
         burger.update({
-          devoured: req.body.burger_name
+          devoured: 1
         }, condition, (result) => {
           if (result.changedRows == 0) {
             return res.status(404).end();

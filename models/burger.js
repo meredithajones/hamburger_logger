@@ -13,17 +13,29 @@ const burger = {
         }) 
     },
 
+// The variables cols and vals are arrays.
+  create: function(cols, vals, cb) {
+    orm.create("burgers", cols, vals, (response) => {
+      cb(response);
+    });
+  },
+  update: function(objColVals, condition, cb) {
+    orm.update("burgers", objColVals, condition, (response) => {
+      cb(response);
+    });
+  },
+
     //Creating the burger
-        create: (burger_name, cb) => {
-        orm.create(burger_name, (response) => {
-        cb(response)
-    })
-},
-        update: (uniqueId, cb) => {
-        orm.update(uniqueId, (response) => {
-        cb(response)
-    })
-},
+//         create: (burger_name, cb) => {
+//         orm.create("burgers","burger_name", burger_name, (response) => {
+//         cb(response)
+//     })
+// },
+//         update: (colToUpdate, condition, cb) => {
+//         orm.update("burgers", colToUpdate, condition, (response) => {
+//         cb(response)
+//     })
+// },
 
     //Devouring the burger– delete
         delete: (condition, cb) => {
@@ -32,7 +44,6 @@ const burger = {
     });
   },
 };
-
 
 
 //Export at the end of the burger.js file.
