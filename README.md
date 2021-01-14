@@ -1,4 +1,4 @@
-# Hamburger Logging Application
+# Burger Bonanza 
 ========================================================
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -33,10 +33,12 @@
 
 ## Links
 
-* [Deployed Link]()
+* [Deployed Link](https://agile-shore-76102.herokuapp.com/)
 
 ## Introduction
- 
+ Burger Bonanza is an application to prosent users with a choice of burgers already on the menu on one side of the screen, as well as an option to add a burger of their choice to the menu which they can simply type in. 
+
+ If the application user would like to devour either a pre-listed, or burger that they created, they will hit the corresponding "devour it" button and the burger will move to the opposite side of the screen where it will be listed as having been devoured. 
 
 
 ## Usage 
@@ -78,6 +80,8 @@
 * Nodejs
 
 * Express
+
+* Jquery
 
 	
 
