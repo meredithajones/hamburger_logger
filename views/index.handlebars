@@ -1,17 +1,15 @@
+{{!-- Linking css --}}
+<link rel="stylesheet" href="/assets/css/style.css">
 {{!-- //Setup the index.handlebars to have the template that Handlebars can render onto.
 Create a button in index.handlebars that will submit the user input into the database. --}}
-<main class="container">         
-  
+<main class="container"> 
+   {{!-- Setting up a background image and styling the text to appear on top of it --}}
+            <div class="hero-image">
+              <div class= "hero-text">
               <h1><p>Time To Eat Some Burgers!</p></h1>
-          
-       {{!-- Field to add a burger--}}
-                <form class="new_burger">
-                    <input class="form-control" type="text" id="new_burger_text" placeholder="Enter a burger" name="add"></input>
-                    <button type="submit">That's the burger I want!</button>
-                </form>
+                
 
-    <h1>Burgers on the menu</h1>
-
+    <h2>Burgers on the menu:</h2>
       <!-- Use for each to create the burgers -->
 
       <ul>
@@ -23,8 +21,13 @@ Create a button in index.handlebars that will submit the user input into the dat
       {{/each}}
     </ul>
 
-    <h2>Burgers Devoured</h2>
+       {{!-- Field to add a burger--}}
+       <h2>Create Your Own Burger</h2>
+                <form class="new_burger">
+                    <input class="form-control" type="text" id="new_burger_text" placeholder="Enter a burger" name="add"></input>
+                    <button type="submit">That's the burger I want!</button></form>
 
+    <h2>Burgers Devoured</h2>
     <ul>
       {{#each burgers}}
       {{#if devoured}}
@@ -35,8 +38,8 @@ Create a button in index.handlebars that will submit the user input into the dat
       </ul>
 
   <button type="submit">Eat The Burger!</button>
-
-
+</div>
+</div>
 </main>
 
 
