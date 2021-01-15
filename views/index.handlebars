@@ -35,7 +35,7 @@ Create a button in index.handlebars that will submit the user input into the dat
           {{#each burger}}
           {{#if devoured}}
           <h3>{{burger_name}}</h3>
-          <button class="delete" id={{id}}>Gone!</button>
+          {{!-- <button class="delete" id={{id}}>Gone!</button> --}}
           {{/if}}
           {{/each}}
         </ul>
