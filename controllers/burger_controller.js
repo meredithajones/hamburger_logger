@@ -6,7 +6,7 @@ var express= require ("express");
 var router = express.Router();
 
 router.get('/', (req, res) => {
-  console.log("GET HIT")
+  console.log("Connected")
     //Why will it not let me use the fat arrow here?
     burger.all(
       function(data) {
@@ -18,11 +18,12 @@ router.get('/', (req, res) => {
         });
 
     });
-    router.post("/api/burgers", (req, res) => {
+    //Changed the router post below, may not need last slash
+    router.post("/api/burgers/", (req, res) => {
 
 
       console.log("REQ", req.body)
-        burger.create( 
+        burger.create( ["burger_name"],
         req.body.burger_name, (result) => {
           // Send back the ID of the new quote
           res.json({ id: result.insertId });
