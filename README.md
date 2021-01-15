@@ -4,7 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/meredithajones/hamburger_logger?logo=github)
 ![GitHub top language](https://img.shields.io/github/languages/top/meredithajones/hamburger_logger?color=green&logo=github&logoColor=green)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/meredithajones/hamburger_logger?style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/meredithajones/hamburger_logger)
 
 ![html badge](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
@@ -58,7 +57,7 @@
 * Run the command: `node index.js` in the integrated terminal. 
 
 ### Screen Shots
-![“”]()
+![“An image of the landing page for the burger logging app”](public/assets/images/screenshot_1.png)
 
 ![“”]()
 
